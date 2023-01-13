@@ -1,0 +1,29 @@
+.jtext {
+    text-align: justify;
+    text-justify: auto;
+    color: #393B3B;
+}
+
+.vdesc {
+    text-align: justify;
+    text-justify: auto;
+    color: #393B3B;
+    font-size: 14px;
+}
+
+#MainMenu {
+    visibility: hidden;
+}
+
+footer{
+    visibility: hidden;
+}
+
+[data-testid="stSidebarNav"]::before {
+    content: "GPP Data Map Tool";
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+    position: relative;
+    top: 100px;
+}
