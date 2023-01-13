@@ -23,10 +23,9 @@ st.markdown("<h1 style='text-align: center;'>Search Assistant</h1>",
 st.markdown(
     """
     <p class='jtext'>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
-    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    Welcome to the <strong style="color:#003249">search assistant</strong>. In this page you can search for a question
+    in the data map based on keywords and availability. It is not necessary to fill the filters in order to get results.
+    However, they will narrow your search.
     </p>
     """,
     unsafe_allow_html = True
@@ -96,7 +95,8 @@ if submit_button:
                         unsafe_allow_html=True)
             
             with st.expander("Coded Answers"):
-                stc.html(vanswers, scrolling=True)
+                stc.html(vanswers, 
+                         scrolling=True)
             with st.expander("Available Countries"):
                 stc.html(vcountries, scrolling=True)
             with st.expander("Available Years"):
