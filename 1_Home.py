@@ -1,8 +1,10 @@
 import streamlit as st
+import streamlit_toggle as toggle
+
 
 st.set_page_config(
-    page_title="Home",
-    page_icon="house"
+    page_title = "Home",
+    page_icon  = "house"
 )
 
 with open("style.css") as stl:
@@ -15,8 +17,8 @@ st.markdown(
     <p class='jtext'>
     This is an interactive app designed to display the most important information related to the questions/variables
     that you can find in the different waves of the General Population Polls between 2018 and 2022. This app is designed 
-    to help you find a variable in the dataset along with its most important details such as available years, encoding,
-    available countries, among other information. 
+    to help you find a variable in the dataset along with its most important details such as encoding, availability, 
+    among other information. 
     </p>
     
     <p class='jtext'>
@@ -32,6 +34,14 @@ st.markdown(
 
     <p class='jtext'>
     Galingan!
+    </p>
+
+    <br>
+
+    <p class='jtext'>
+    <i>Update note (May, 2023): This app currently contains information based on the questions/variables asked in the core, 
+    caribbean and expanded versions of the GPP between 2018 and 2022. Questions from other special versions like the 
+    Afganisthan questionnaire are still not recorded in this app.</i>
     </p>
     """,
     unsafe_allow_html = True

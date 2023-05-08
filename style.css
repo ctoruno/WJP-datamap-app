@@ -4,6 +4,13 @@
     color: #393B3B;
 }
 
+.jtext-ex {
+    text-align: justify;
+    text-justify: auto;
+    color: #393B3B;
+    font-size: 13px;
+}
+
 .vdesc {
     text-align: justify;
     text-justify: auto;
@@ -26,4 +33,19 @@ footer{
     font-size: 30px;
     position: relative;
     top: 100px;
+}
+
+.ek41t0m0 p{
+    text-align: justify;
+    text-justify: auto;
+    color: #393B3B;
+    font-size: 14px;
+}
+
+.st-fq .st-b4 p{
+    font-weight: 600;
+}
+
+[data-baseweb="tab-list"] p{
+    font-weight: 600;
 }
