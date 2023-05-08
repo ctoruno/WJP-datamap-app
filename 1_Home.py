@@ -1,5 +1,4 @@
 import streamlit as st
-import streamlit_toggle as toggle
 
 
 st.set_page_config(
