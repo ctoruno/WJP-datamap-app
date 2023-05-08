@@ -4,7 +4,7 @@ Python repository containing the source code for the an interactive tool that al
 
 * Last available version: May 8th, 2023
 
-![]("Media/home.png")
+![](Media/home.png)
 
 ## Filing system
 The tool is designed to be a multipage app. As such, in the root directory you will find the `1_Home.py` script containing the code for the home page of the app, while in the `/pages/` sub-directory you can find the cod for the remaining pages of the app. In the `/Data/` sub-directory you can find the data that serves as baase for the app as CSV files. A `styles.css` file is added for aesthetic purposes.
